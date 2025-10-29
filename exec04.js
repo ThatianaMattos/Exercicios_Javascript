@@ -8,4 +8,4 @@ let n3 = leia.questionFloat("Digite o valor do numero3: ")
 let n4 = leia.questionFloat("Digite o valor do numero4: ")  
 // Cálculo da diferença
 let diferenca = (n1 * n2) - (n3 * n4)
-console.log(`A diferença entre os produtos é: ${diferenca.toFixed(2)}`)    
+console.log(`A diferença entre os números é: ${diferenca.toFixed(2)}`)    
