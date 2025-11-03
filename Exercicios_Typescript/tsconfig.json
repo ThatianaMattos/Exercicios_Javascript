@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+
+    /* Essas duas opções precisam ser iguais */
+    "module": "node16",
+    "moduleResolution": "node16",
+
+    /* Permite usar import default de libs CommonJS (como readline-sync) */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Garantir que a tipagem funcione sem bugs */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
