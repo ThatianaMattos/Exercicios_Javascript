@@ -1,5 +1,6 @@
 import readlineSync from "readline-sync";
 import { Queue } from "./Queue"; // mantém esse arquivo do cookbook na mesma pasta
+import leia = require("readline-sync");
 
 const fila = new Queue<string>();
 
@@ -49,4 +50,6 @@ while (opcao !== 0) {
     default:
       console.log("\nOpcao invalida!");
   }
+  leia.question("\nPressione ENTER para continuar...");
+  console.clear();
 }

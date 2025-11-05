@@ -1,6 +1,7 @@
 // Exec02.ts
 import { questionInt, question } from "readline-sync";
 import { Stack } from "./Stack";
+import leia = require("readline-sync");
 
 const pilha = new Stack<string>();
 
@@ -55,4 +56,6 @@ do {
     default:
       console.log("\nOpcao invalida, tente novamente!");
   }
+  leia.question("\nPressione ENTER para continuar...");
+  console.clear();
 } while (opcao !== 0);
